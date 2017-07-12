@@ -3,11 +3,11 @@
 
 <suite name="DefaultSuite">
 
-    <parameter name="booleanValue2" value="Pass"/>
+    <parameter name="trueOrFalse2" value="Pass"/>
 
-    <test name="testChange2">
+    <test name="Tests">
         <classes>
-            <class name="Test2" />
+            <class name="TestBase" />
         </classes>
 
     </test>
