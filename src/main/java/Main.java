@@ -53,7 +53,7 @@ public class Main {
         Singleton x = new Singleton ();
 //        x.getInstance();
         x.populate();
-        System.out.println("arrayList #: " + x.get());
-        x.change(25,"false");
+        System.out.println("Random arrayList value: " + x.get());
+        x.change(25,"Fail");
     }
 }
